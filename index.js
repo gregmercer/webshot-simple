@@ -11,9 +11,9 @@ var options = {
     "ssl-protocol": "any"
   },
   settings: {
-    resourceTimeout: 60000
+    resourceTimeout: 6000
   },
-  renderDelay: 4000
+  renderDelay: 6000
 };
 
 webshot('simple.html', 'simple.png', options, function(err) {
